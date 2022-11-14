@@ -3,88 +3,98 @@
     <head>
         <meta charset="utf-8" />
         <title>Magdalenas Personal Site</title>
-
         <link rel="stylesheet" href="css/styles.css">
+        <!-- Add an icon using favicon -->
     </head>
     <body>
-        <h1>Hello! I am Magdalena Maciak</h1>
-        <p><em>I am a web developer</em></p>
-        <hr>
-        <h3>About me</h3>
-        <ul>
-            <li> Playing Guitar</li>
-            <li> Bouldering </li>
-            <li> Art </li>
-        </ul>
-        <hr>
-        <h3> Skills </h3>
+        <div class="introduction">
+            <h1>Hello! I am Magdalena Maciak</h1>
+            <p><em>I am a web developer</em></p>
+            <hr>
+        </div>
+        <div class="About me">
+            <h3>about-me</h3>
+            <ul>
+                <li> Playing Guitar</li>
+                <li> Bouldering </li>
+                <li> Art </li>
+            </ul>
+        </div>
+        <div class="skills">
+            <hr>
+            <h3 class="empasis"> Skills </h3>
 
 
-        <table cellspacing="10">
-            <thead>
+            <table cellspacing="10">
+                <thead>
+                    <tr>
+                        <th>Front-end</th>
+                        <th>Other</th>
+                    </tr>
+                </thead>
                 <tr>
-                    <th>Front-end</th>
-                    <th>Other</th>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>HTML</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>CSS</td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td>JAVASCRIPT</td>
+                                <td>  </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>REACT</td>
+                                <td>*</td>
+                            </tr>
+                            <tr>
+                                <td>GITHUB</td>
+                                <td>****</td>
+                            </tr>
+                            <tr>
+                                <td>SASS</td>
+                                <td>  </td>
+                            </tr>
+                            <tr>
+                                <td>TYPESCRIPT</td>
+                                <td>  </td>
+                            </tr>
+                        </table>
+                    </td>
                 </tr>
-            </thead>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>HTML</td>
-                            <td>****</td>
-                        </tr>
-                        <tr>
-                            <td>CSS</td>
-                            <td> </td>
-                        </tr>
-                        <tr>
-                            <td>JAVASCRIPT</td>
-                            <td>  </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>REACT</td>
-                            <td>*</td>
-                        </tr>
-                        <tr>
-                            <td>GITHUB</td>
-                            <td>****</td>
-                        </tr>
-                        <tr>
-                            <td>SASS</td>
-                            <td>  </td>
-                        </tr>
-                        <tr>
-                            <td>TYPESCRIPT</td>
-                            <td>  </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h3> Projects </h3>
-        <ul>
-            <li> My really cool first project </li>
-        </ul>
-        <hr>
-        <h3> Contact me </h3>
-        <form action="mailto:macmagdalena@yahoo.co.uk" method="post" enctype="text/plain">
-            <label>Your Name:</label>
-            <input type="text" name="yourName" id="name" />
-            <br />
-            <label>Your Email:</label>
-            <input type="email" name="yourEmail" id="email" />
-            <br />
-            <label>Your Message</label>
-            <br />
-            <textarea name="yourMessage" rows="5" cols="80"></textarea>
-            <input type="submit" />
+            </table>
+        </div>
+        <div class="projects">
+            <hr>
+            <h3 id="header"> Projects </h3>
+            <ul>
+                <li> My really cool first project </li>
+            </ul>
+        </div>
+        <div class="contact-me">
+            <hr>
+            <h3 class="empasis"> Contact me </h3>
+            <form action="mailto:macmagdalena@yahoo.co.uk" method="post" enctype="text/plain">
+                <label>Your Name:</label>
+                <input type="text" name="yourName" id="name" />
+                <br />
+                <label>Your Email:</label>
+                <input type="email" name="yourEmail" id="email" />
+                <br />
+                <label>Your Message</label>
+                <br />
+                <textarea name="yourMessage" rows="5" cols="80"></textarea>
+                <input type="submit" />
 
-        </form>
+            </form>
+        </div>
     </body>
 </html>
